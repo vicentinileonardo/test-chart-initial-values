@@ -8,6 +8,6 @@ metadata:
 spec:
   chart:
     url: oci://ghcr.io/vicentinileonardo/test-chart-initial-values/initialvalues
-    version: 0.1.0
+    version: 0.1.1
 EOF
 ```

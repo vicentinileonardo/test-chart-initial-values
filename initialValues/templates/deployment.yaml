@@ -2,12 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: test
-  labels:
-    label0: {{ .Values.applicationGroupDisplayName }}
-    label1: {{ .Values.applicationGroupName }}
-    label2: {{ index .Values.developersList 0 }}
-    label3: {{ index .Values.permissions 0 }}
-    label4: {{ .Values.policyPrApprovers }}
 spec:
   replicas: 1
   selector:
