@@ -7,8 +7,7 @@ metadata:
   name: test-inital-values
 spec:
   chart:
-    repo: initalvalues
-    url: https://ghcr.io/vicentinileonardo/test-chart-initial-values
+    url: oci://ghcr.io/vicentinileonardo/test-chart-initial-values/initialvalues
     version: 0.1.0
 EOF
 ```
