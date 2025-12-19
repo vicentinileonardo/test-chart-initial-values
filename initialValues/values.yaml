@@ -1,0 +1,20 @@
+
+
+applicationGroupDisplayName: test-151
+applicationGroupName: test-151
+# @schema
+# type: array
+# items:
+#   type: string
+# @schema
+developersList:
+- testmail@mail.com
+# @schema
+# type: array
+# items:
+#   type: string
+# @schema
+permissions:
+- test_item_1
+
+policyPrApprovers: false

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": true,
+  "properties": {
+    "applicationGroupDisplayName": {
+      "default": "test-151",
+      "title": "applicationGroupDisplayName",
+      "type": "string"
+    },
+    "applicationGroupName": {
+      "default": "test-151",
+      "title": "applicationGroupName",
+      "type": "string"
+    },
+    "developersList": {
+      "items": {
+        "type": "string"
+      },
+      "title": "developersList",
+      "type": "array"
+    },
+    "permissions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "permissions",
+      "type": "array"
+    },
+    "policyPrApprovers": {
+      "default": false,
+      "title": "policyPrApprovers",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "applicationGroupDisplayName",
+    "applicationGroupName",
+    "policyPrApprovers"
+  ],
+  "type": "object"
+}
